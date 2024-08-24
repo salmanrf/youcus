@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+#root {
+  width: 360px;
+  min-height: 480px;
+  background: hsl(216, 100%, 98%);
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+#popup-header {
+  margin-bottom: 48px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: hsl(0, 0%, 21%);
+}
+
+#popup-control {
+  padding: 18px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  background: white;
+}
+
+#control-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.control-item {
+  display: flex;
+  padding: 12px 0;
+  justify-content: space-between;
+  border-bottom: 1px solid hsl(0, 0%, 21%);
+}
+
+.control-item > h3 {
+  font-size: 12px;
+  font-weight: 500;
+  color: hsl(0, 0%, 21%);
+}
+
+#popup-feedback {
+  padding: 32px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid hsl(216, 100%, 98%);
+  background: white;
+}
+
+#popup-feedback > a {
+  font-size: 14px;
+  font-weight: 500;
+  color: hsl(0, 0%, 21%);
+  text-decoration: none;
+}
